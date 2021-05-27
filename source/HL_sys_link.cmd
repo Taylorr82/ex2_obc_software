@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------*/
-/* sys_link_freeRTOS.cmd                                                      */
+/* sys_link.cmd                                                               */
 /*                                                                            */
 /* 
 * Copyright (C) 2009-2018 Texas Instruments Incorporated - www.ti.com  

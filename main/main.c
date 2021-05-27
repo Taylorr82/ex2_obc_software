@@ -44,7 +44,6 @@
 #include "HL_sci.h"
 #include "HL_sys_common.h"
 #include "system_tasks.h"
-#include "gps_service.h"
 #include "mocks/rtc.h"
 #include "leop.h"
 
@@ -73,7 +72,7 @@ int ex2_main(int argc, char **argv) {
   InitIO();
 
   /* Initialization routine */
-//  init_filesystem();
+  init_filesystem();
   init_csp();
   /* Start service server, and response server */
   init_leop(leop_time_ms);
